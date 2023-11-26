@@ -1,0 +1,20 @@
+# Activate environment
+call .\.venv\Scripts\activate.bat
+
+# Deactivate environment
+deactivate
+
+# Save dependency
+pip freeze > requirement.txt
+
+# Install dependency
+pip install -r requirement.txt
+
+# Install jupiter lab
+pip install jupyterlab
+
+# Run jupiter lab
+jupyter lab
+
+# Run notebook
+jupyter notebook
